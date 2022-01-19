@@ -1,0 +1,13 @@
+name: Shiny_Stroke_Predictor
+title: Shiny_Stroke_Predictor
+username:
+account: shilingt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5469967
+bundleId: 5485988
+url: https://shilingt.shinyapps.io/Shiny_Stroke_Predictor/
+when: 1642615120.54229
+lastSyncTime: 1642615120.54229
+asMultiple: FALSE
+asStatic: FALSE
