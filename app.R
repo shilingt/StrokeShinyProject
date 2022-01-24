@@ -256,13 +256,13 @@ ui <- fluidPage(
                         sidebarPanel(selectInput("table1","X-axis",names(stroke_df)[1:11],multiple=FALSE,selected="id"),
                                      selectInput("table2","Y-axis",names(stroke_df)[1:11],multiple=FALSE,selected="gender"),
                                      submitButton(text="Submit",icon=icon("refresh"),width=NULL)),
-                        mainPanel(h5("Violin Plot of"),tableOutput("table.1"),plotOutput("gg2"))),
+                        mainPanel(h5("Violin Plot of"), tableOutput("table.1"),plotOutput("gg2"))),
                
                tabPanel("Bar Chart",
                         sidebarPanel(selectInput("table3","X-axis",names(stroke_df)[1:11],multiple=FALSE,selected="id"),
                                      selectInput("table4","Y-axis",names(stroke_df)[1:11],multiple=FALSE,selected="gender"),
                                      submitButton(text="Submit",icon=icon("refresh"),width=NULL)),
-                        mainPanel(h2("Marital Status Vs Stroke"),tableOutput("table.3"),plotOutput("gg3"),h2("Smoking Status Vs stroke for each Residence Type and Glucose levels"),plotOutput("gg4"))),
+                        mainPanel(h2("Bar Chart"),tableOutput("table.3"),plotOutput("gg3"))),
                
                
                tabPanel("Pie Chart",
