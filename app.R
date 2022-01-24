@@ -265,10 +265,6 @@ ui <- fluidPage(
                         mainPanel(h2("Bar Chart"),tableOutput("table.3"),plotOutput("gg3"))),
                
                
-               tabPanel("Pie Chart",
-                        mainPanel(h2("Number of people who suffered a stroke"),plotOutput("gg6"))),
-               
-               
              )),
     
     
